@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="instabookLogo.svg" width="220" alt="Instabook Logo" />
+  <img src="instabookLogo.svg" width="350" alt="Instabook Logo" />
 </p>
 
 # Instabook API
@@ -29,24 +29,6 @@ npm install
 # Copy environment template and fill in your values
 cp .env.example .env
 ```
-
-## Environment Variables
-
-Create a `.env` file in the project root. Example variables:
-
-| Variable | Description |
-|----------|-------------|
-| `PORT` | Server port (default: 3000) |
-| `NODE_ENV` | `development` \| `production` |
-| `MONGODB_URI` | MongoDB connection string |
-| `JWT_SECRET` | Secret for access tokens |
-| `JWT_EXPIRES_IN` | Access token expiry (e.g. `7d`) |
-| `REFRESH_TOKEN_SECRET` | Secret for refresh tokens |
-| `REFRESH_TOKEN_EXPIRES_IN` | Refresh token expiry (e.g. `30d`) |
-| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud name |
-| `CLOUDINARY_API_KEY` | Cloudinary API key |
-| `CLOUDINARY_API_SECRET` | Cloudinary API secret |
-| `CORS_ORIGIN` | Allowed frontend origin (e.g. Next.js URL) |
 
 ## Running the App
 
