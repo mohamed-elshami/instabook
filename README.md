@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="instabook.svg" width="120" alt="Instabook Logo" />
+  <img src="instabookLogo.svg" width="220" alt="Instabook Logo" />
 </p>
 
 # Instabook API
